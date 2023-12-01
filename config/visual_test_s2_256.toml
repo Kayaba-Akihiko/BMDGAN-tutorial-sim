@@ -1,0 +1,8 @@
+
+test_names = ['hrnet18', 'hrnet32', 'hrnet48']
+test_result_paths = [
+    'output/test_s2_18_256/test_result.csv',
+    'output/test_s2_32_256/test_result.csv',
+    'output/test_s2_48_256/test_result.csv']
+
+

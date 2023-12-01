@@ -1,0 +1,22 @@
+
+
+image_size = [256, 256]
+
+[data_module_config]
+stage = 'TWO'
+data_root = 'data'
+training_batch_size = 16
+preload = true
+debug = false
+
+[trainer_config]
+n_epoch = 300
+model = 'hrnet32'  # 48, 32, 18
+pretrain_load_dir = 'output/train_s1_32_256'
+pretrain_load_prefix = '400'
+lr = 1e-4
+weight_decay = 1e-4
+log_visual_every_n_epoch = 10
+log_model_hist_every_n_epoch = 10
+test_every_n_epoch = 10
+save_model_every_n_epoch = 100

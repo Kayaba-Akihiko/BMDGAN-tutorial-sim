@@ -1,0 +1,12 @@
+
+image_size = [256, 256]
+test_result_path = 'output/test_s2_18_256/test_result.csv'
+pretrain_load_dir = 'output/train_s2_18_256'
+pretrain_load_prefix = '300'
+model = 'hrnet18'
+
+[dataset_config]
+stage = 'TWO'
+data_root = 'data'
+preload = false
+

@@ -1,0 +1,14 @@
+
+image_size = [256, 256]
+
+[data_module_config]
+stage = 'TWO'
+data_root = 'data'
+test_batch_size = 16
+preload = false
+debug = false
+
+[tester_config]
+model = 'hrnet32'  # 48, 32, 18
+pretrain_load_dir = 'output/train_s2_32_256'
+pretrain_load_prefix = '300'
