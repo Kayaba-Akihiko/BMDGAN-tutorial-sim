@@ -159,8 +159,7 @@ volume = {90},
 pages = {102970},
 year = {2023},
 issn = {1361-8415},
-doi = {https://doi.org/10.1016/j.media.2023.102970},
-url = {https://www.sciencedirect.com/science/article/pii/S136184152300230X},
+doi = {10.1016/j.media.2023.102970},
 author = {Yi Gu and Yoshito Otake and Keisuke Uemura and Mazen Soufi and Masaki Takao and Hugues Talbot and Seiji Okada and Nobuhiko Sugano and Yoshinobu Sato},
 }
 
