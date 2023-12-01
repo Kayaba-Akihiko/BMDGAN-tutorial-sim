@@ -28,7 +28,7 @@ There is no guarantee of the same performance as in the papers even with the sam
 ### 1.2 What's in the code?
 1. Basic epoch-based training framework (training, evaluation, visualization, saving, and loading).
 2. Pet dataset loading pipeline. 
-3. HRNet model architecture.
+3. [HRNet](https://github.com/HRNet/HRNet-Semantic-Segmentation) model architecture.
 4. Loss functions used in the paper.
 5. Image decomposition evaluation (using PSNR and SSIM).
 6. Results visualization.
@@ -55,8 +55,8 @@ pytorch 2.0.1+cu12.1\
 scikit-image, opencv, eniops, tensorboard, torchmetrics, yacs, pandas, matplotlib
 
 ### 2.2 Run training
-This tutorial uses HRNet as backbone with 256x256 image size.\
-If you encountered OOM, try to reduce image size, batch size, or HRNet scale (HRNet18, HRNet32).\
+This tutorial uses [HRNet](https://github.com/HRNet/HRNet-Semantic-Segmentation) as backbone with 256x256 image size.\
+If you encounter OOM, try to reduce image size, batch size, or HRNet scale (HRNet18, HRNet32).\
 If the training takes too long, try to reduce number of training epochs.\
 For detailed settings, please refere to ```config/train_s1_48_256.toml```.
 
