@@ -1,5 +1,7 @@
 # BMD-GAN tutorial using simulation
 
+An extended version is available now at [the next BMD-GAN tutorial](https://github.com/Kayaba-Akihiko/next-bmdgan-tutorial.git)
+
 Tutorial code for papers\
 [BMD-GAN: Bone Mineral Density Estimation Using X-Ray Image Decomposition into Projections of 
 Bone-Segmented Quantitative Computed Tomography Using Hierarchical Learning](https://link.springer.com/chapter/10.1007/978-3-031-16446-0_61)\
